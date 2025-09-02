@@ -1,0 +1,182 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Residency</title>
+</head>
+<body>
+    Navbar -->
+     <!-- <section class="navbar">
+        <div>
+            <h1>Azure Residency</h1>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Rooms</a></li>
+                <li><a href="">Books Now</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </div>
+
+        <div>
+            <button>Reserve Now</button>
+        </div>
+
+     </section>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Azure Residency</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Azure Logo" />
+      <span><strong>Azure</strong> Residency</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="rooms.html">Rooms</a></li>
+      <li><a href="booking.html">Book Now</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="btn reserve-btn">Reserve Now</button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Luxury Ocean <span class="highlight">Residency</span></h1>
+      <p>Experience unparalleled luxury with breathtaking ocean views and world-class amenities</p>
+      <div class="btn-group">
+        <button id="explore" class="btn outline-btn">Explore Suites</button>
+        <button id="book" class="btn solid-btn">Book Your Stay</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="amenities-section">
+  <div class="container">
+    <h2>Premium Amenities</h2>
+    <p class="subtitle">Every detail crafted for your perfect stay</p>
+
+    <div class="amenities-grid">
+      <div class="amenity-card">
+        <div class="icon-circle">
+          <!-- <img src="/mnt/data/ef8ffa59-2f7f-482f-bd3a-7c93d8c66f61.png" alt="Free WiFi Icon" /> -->
+           <i class="fa-solid fa-wifi" style="color: #ffffff; font-size: 25px; " ></i>
+        </div>
+        <h3>Free WiFi</h3>
+        <p>High-speed internet throughout</p>
+      </div>
+
+      <div class="amenity-card">
+        <div class="icon-circle">
+          <!-- <img src="/mnt/data/5cf1ca80-60f1-43fe-bef7-9fef3da17009.png" alt="Valet Parking Icon" /> -->
+           <i class="fa-solid fa-car-side" style="color: #ffffff; font-size: 25px"></i>
+        </div>
+        <h3>Valet Parking</h3>
+        <p>Complimentary parking service</p>
+      </div>
+
+      <div class="amenity-card">
+        <div class="icon-circle">
+          <!-- Reuse previously used Ocean Access icon -->
+          <!-- <img src="/mnt/data/c63443a4-0535-47b5-8fff-c79688ccb510.png" alt="Ocean Access Icon" style="filter: brightness(0) invert(1); width: 40px;"/> -->
+        <i class="fa-solid fa-water" style="color: #ffffff; font-size: 25px;"></i>
+        </div>
+
+        <h3>Ocean Access</h3>
+        <p>Private beach and pool</p>
+      </div>
+
+      <div class="amenity-card">
+        <div class="icon-circle">
+          <!-- Concierge icon (please replace with actual image) -->
+          <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="Concierge Icon" />
+        </div>
+        <h3>Concierge</h3>
+        <p>24/7 premium service</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="accommodations-section">
+  <div class="container">
+    <h2>Luxury Accommodations</h2>
+    <p class="subtitle">Choose from our collection of elegant suites and villas</p>
+
+    <div class="accommodation-cards">
+      <div class="accommodation-card">
+        <img src="./images/beach.jpg" alt="Ocean View Suite" />
+        <div class="card-content">
+          <h3>Ocean View Suite</h3>
+          <p class="price"><strong>$299</strong> <span>per day</span></p>
+          <div class="tags">
+            <span>Ocean View</span>
+            <span>King Bed</span>
+            <span>Marble Bath</span>
+          </div>
+          <button class="btn-reserve">Reserve Now</button>
+        </div>
+      </div>
+
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Garden Villa" />
+        <div class="card-content">
+          <h3>Garden Villa</h3>
+          <p class="price"><strong>$399</strong> <span>per day</span></p>
+          <div class="tags">
+            <span>Private Garden</span>
+            <span>Terrace</span>
+            <span>Living Room</span>
+          </div>
+          <button class="btn-reserve">Reserve Now</button>
+        </div>
+      </div>
+
+      <div class="accommodation-card">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80" alt="Penthouse Suite" />
+        <div class="card-content">
+          <h3>Penthouse Suite</h3>
+          <p class="price"><strong>$599</strong> <span>per day</span></p>
+          <div class="tags">
+            <span>City & Ocean View</span>
+            <span>Spacious</span>
+            <span>Premium Design</span>
+          </div>
+          <button class="btn-reserve">Reserve Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready for Your Perfect Getaway?</h2>
+    <p>Book now and experience luxury redefined</p>
+    <div class="cta-buttons">
+      <button class="btn-primary" id="book1">Book Your Stay</button>
+      <button class="btn-secondary" id ="contact">Contact Us</button>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
